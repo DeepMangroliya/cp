@@ -9,11 +9,10 @@ This repository is a personal archive of my ongoing journey to master problem-so
 ## 🔍 What You'll Find Here
 
 - 🧩 **Problems Solved From:**
+  - [CodeChef](https://www.codechef.com/)
   - [LeetCode](https://leetcode.com/)
-  - [Codeforces](https://codeforces.com/)
   - [AtCoder](https://atcoder.jp/)
   - [HackerRank](https://www.hackerrank.com/)
-  - [CodeChef](https://www.codechef.com/)
 
 - 📚 **Topics Covered:**
   - Arrays, Strings, HashMaps
