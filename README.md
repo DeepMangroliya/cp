@@ -13,7 +13,7 @@ This repository is a personal archive of my ongoing journey to master problem-so
   - [LeetCode](https://leetcode.com/)
   - [AtCoder](https://atcoder.jp/)
   - [HackerRank](https://www.hackerrank.com/)
-  - [Striver'S DSA Sheet]([https://www.hackerrank.com/](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/))
+  - [Striver'S DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
 
 - 📚 **Topics Covered:**
   - Arrays, Strings, HashMaps
