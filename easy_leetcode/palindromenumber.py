@@ -6,4 +6,4 @@ class Solution:
             last = x%10
             x//=10
             reverse = reverse * 10 + last
-        return rev erse == temp
+        return reverse == temp
