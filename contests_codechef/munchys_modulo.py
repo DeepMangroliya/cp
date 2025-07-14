@@ -18,7 +18,6 @@ def solve_munchys_modulo():
         for j in range(N):
             for k in range(j+1, N):
                 div1 = A[j] + A[k]
-                div2 = A[k] + A[j]  # same as div1
 
                 for i in range(N):
                     if i != j and i != k:
