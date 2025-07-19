@@ -1,0 +1,24 @@
+class Solution:
+    def countIslands(self, grid: List[List[int]], k: int) -> int:
+        m = len(grid)
+        n = len(grid[0])
+        visited = [[False]*n for _ in range(m)]
+        def dfs(r, c):
+            if r < 0 or r >= m or c < 0 or c >= n:
+                return 0
+            if visited[r][c] or grid[r][c]==0:
+                return 0
+            visited[r][c] = True
+            total = grid[r][c]
+            for dr, dc in [(-1,0),(0,1),(1,0),(0,-1)]:
+                total+=dfs((r+dr),(c+dc))
+            return total
+
+        count=0
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j]>0 and not visited[i][j]:
+                    total = dfs(i, j)
+                    if total % k == 0:
+                        count += 1
+        return count
