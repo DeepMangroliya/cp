@@ -1,0 +1,27 @@
+from collections import defaultdict
+from math import comb
+from typing import List
+
+class Solution:
+    def countTrapezoids(self, points: List[List[int]]) -> int:
+        MOD = 10**9 + 7
+        
+        y_map = defaultdict(list)
+        for x, y in points:
+            y_map[y].append(x)
+
+        segs = []
+        for y in y_map:
+            k = len(y_map[y])
+            if k >= 2:
+                segs.append(comb(k, 2))
+
+        total_sum = sum(segs) % MOD
+        square_sum = sum((s * s) % MOD for s in segs) % MOD
+
+        # Formula: (total_sum^2 - sum_of_squares) // 2
+        total = (total_sum * total_sum - square_sum) % MOD
+        total = (total * pow(2, MOD - 2, MOD)) % MOD  # modular inverse of 2
+
+        return total
+©leetcode
