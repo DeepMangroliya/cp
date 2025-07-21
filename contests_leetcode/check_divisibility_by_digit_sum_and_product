@@ -12,4 +12,4 @@ class Solution:
         if n%(sum+product) == 0:
             return True
         
-        return False©leetcode
+        return False
