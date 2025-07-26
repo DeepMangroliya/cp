@@ -44,7 +44,6 @@ a = list(map(int, input().split()))
 d = int(input())
 n = len(a)
 d = d % n
-print(d)
 rotate(a, d, n)
 
 print(a)
