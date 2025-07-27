@@ -1,6 +1,6 @@
-a1 = list(map(int, input().split()))
-a2 = list(map(int, input().split()))
+a1 = set(map(int, input().split()))
+a2 = set(map(int, input().split()))
 
-union = []
+union = a1 | a2
 
-union.append()
+print(union)
