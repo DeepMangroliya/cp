@@ -6,5 +6,5 @@ for i in range(len(a)):
         sum += 1
     else:
         sum = 0
-    max_sum = max(max_sum, sum)
+    max_sum = max(max_sum, sum).  
 print(max_sum)
