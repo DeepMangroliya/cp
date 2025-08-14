@@ -12,4 +12,4 @@ for i in range(0, len(arr)):
     hashmap[arr[i]] = i
 else:
     print('Nahh')
-        
+    
