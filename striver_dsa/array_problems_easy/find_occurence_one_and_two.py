@@ -1,4 +1,3 @@
-from collections import defaultdict
 a = list(map(int, input().split()))
 
 # hashmap = defaultdict(int)

@@ -8,3 +8,5 @@ for i in range(len(a)):
         sum = 0
     max_sum = max(max_sum, sum)
 print(max_sum)
+
+1 1 0 0 0 1 0 1 1 1 1 1 0
