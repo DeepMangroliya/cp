@@ -3,7 +3,8 @@ def reverse(a, start, end):
         a[start], a[end] = a[end], a[start]
         start+=1
         end-=1
-
+# if rotating on left, first sort first k elements, then from k to n, then whole.
+# if rotating on right, first sort last k elements, then first k, then whole.
 def rotate(a, d, n):
     # better O(n+d) is the time complexity and O(d) is the space complexity
     # temp = [ ]
