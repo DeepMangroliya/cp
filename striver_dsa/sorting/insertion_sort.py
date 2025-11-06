@@ -1,5 +1,4 @@
 def insertion_sort(a)->list:
-    n = len(a)
     for i in range(len(a)):
         for j in range(i,0,-1):
             if a[j] < a[j-1]:
