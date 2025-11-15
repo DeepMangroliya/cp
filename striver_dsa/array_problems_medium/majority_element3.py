@@ -22,14 +22,14 @@ for i in range(len(nums)):
 count1 = 0
 count2 = 0
 ans = []
-mini = len(nums)//3
+mini = len(nums)//3 + 1
 for i in range(len(nums)):
     if nums[i] == ele1:
         count1 += 1
     if nums[i] == ele2:
         count2 += 1
-if count1 > mini:
+if count1 >= mini:
     ans.append(ele1)
-if count2 > mini:
+if count2 >= mini:
     ans.append(ele2)
 print(ans)
